@@ -1,0 +1,8 @@
+Hi, in first place, your development was very useful, thank you. 
+
+My publish is to share a doubt, I want to perform a logout in a certain point in my application but, the application is stil keeping the
+cookies created with the authentication info. When a request is made to the application, if this cookie exists, the application does't need
+to send anything to the adfs server and therefor, will not know that it may need to update its authentication info. What i mean is, the adfs 
+server may recieve a logout but, the application keeps the cookie. My questions is, how to make sure the cookie is deleted?
+Have you experienced any problem with the logout?
+Thank you
